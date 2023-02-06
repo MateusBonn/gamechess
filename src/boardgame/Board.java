@@ -16,7 +16,7 @@ public class Board {
 		 
 	}
 	
-	public void PlacePiece(Piece piece, Position position) {
+	public void placePiece(Piece piece, Position position) {
 		if (thereIsAPiece(position)) {
 			throw new BoardException("There's already a piece on position " + position);
 		}
